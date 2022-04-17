@@ -1,0 +1,139 @@
+h3 {
+    display: inline-block;
+    color: #FF4C68;
+    padding-top: 1%;
+}
+
+h2 {
+    color: #FF4C68;
+}
+
+.first-div {
+    margin: 1% 5% 2% 5%;
+}
+
+.navigation-buttons {
+    display: inline-block;
+    margin-left: 70%;
+}
+
+.second-div {
+    text-align: center;
+    background-color: #8fd6e1;
+}
+
+.third-div {
+    margin: 5% auto 5%;
+    display: inline-block;
+    background-color: white;
+    width: 400px;
+}
+
+.icon {
+    margin: 8% auto 10%;
+    width: 25%;
+    border: solid grey;
+    border-radius: 100%;
+}
+
+.icons {
+    width: 5%;
+    border: solid grey;
+    border-radius: 100%;
+}
+
+.heading {
+    font-size: 1.5rem;
+    margin: 10% auto 10%;
+}
+
+.disclaimer {
+    margin-bottom: 10%;
+}
+
+.btn-submit {
+    width: 50%;
+    margin-bottom: 10%;
+}
+
+.login-form {
+    margin: 15% auto;
+}
+
+.innerDiv {
+    margin: 5% auto 5%;
+    display: inline-block;
+    background-color: white;
+    width: 30%;
+    height: 450px;
+}
+
+.outerDiv {
+    text-align: center;
+    background-color: #8fd6e1;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+h1 {
+    padding-top: 50px;
+    color: white;
+}
+
+.h1 {
+    display: inline-block;
+    color: white;
+}
+
+input[type = file] {
+    margin-left: 22%;
+    margin-bottom: 5%;
+}
+
+.item-page {
+    background-color: #8fd6e1;
+}
+
+.recipe {
+    text-align: left;
+}
+
+.footer {
+    text-align: center;
+}
+
+.recipe-img {
+    margin-top: -15%;
+    width: 400px;
+    border: black solid;
+}
+
+.recipe-idn {
+    padding-top: 5%;
+}
+
+.chai-div {
+    position: relative;
+    top: 30px;
+    padding: 2%;
+    margin: 1%;
+}
+
+.chai-img {
+    position: relative;
+    bottom: 20px;
+}
+
+.chapati-div {
+    padding-bottom: 5%;
+}
+
+@media only screen and (max-width: 900px) {
+    .chapati-div {
+        padding-bottom: 15%;
+    }
+
+    .recipe-img {
+        margin: 15%;
+    }
+}

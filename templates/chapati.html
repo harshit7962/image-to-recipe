@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Chapati Icon -->
+    <link rel="icon" href="{{ url_for('static',filename='images/chapati-icon.png') }}">
+    <!-- custom styles -->
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/styles.css') }}">
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <title>Chapati</title>
+</head>
+<body>
+    <section id="navigation">
+        <div class = "first-div">
+            <h3>FoodSnap</h3>
+            <div class="navigation-buttons">
+                <button type="button" class="btn btn-light btn-round">Login</button>
+                <button type="button" class="btn btn-danger btn-round">Sign Up</button>
+            </div>
+        </div>
+    </section>
+    <section id="item-page">
+        <div class="second-div chapati-div">
+            <h2 class="recipe-idn">Image identified as Chapati!!!</h2>
+            <img class='recipe-img chai-img' src='static\images\chapati.PNG' alt='tea-photo'>
+            <div class='third-div chai-div'>
+                <h3> Requirements </h3>
+                <ol class='recipe'>
+                    <li>2 1/2 Cup whole wheat flour</li>
+                    <li>Water as required</li>
+                    <li>Salt as required</li>
+                    <li>1 Tablespoon ghee</li>
+                </ol>
+                <h3> Recipe </h3>
+                <ol class='recipe'>
+                    <li>Put two cups of flour along with a cup of water, salt and ghee in it.</li>
+                    <li>Knead a smooth dough</li>
+                    <li>Flatten the dough balls</li>
+                    <li>Cook the Chapati</li>
+                    <li>Once heated enough, put the chapati on tha pan and cook from both sides.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
