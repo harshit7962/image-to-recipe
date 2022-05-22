@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tea Icon -->
+    <link rel="icon" href="{{ url_for('static',filename='images/pav.PNG') }}">
+    <!-- custom styles -->
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/styles.css') }}">
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <title>Pav Bhaji</title>
+</head>
+<body>
+    <section id="navigation">
+        <div class = "first-div">
+            <h3>FoodSnap</h3>
+            <div class="navigation-buttons">
+                <button type="button" class="btn btn-light btn-round">Login</button>
+                <button type="button" class="btn btn-danger btn-round">Sign Up</button>
+            </div>
+        </div>
+    </section>
+    <section id="item-page">
+        <div class="second-div">
+            <h2 class="recipe-idn">Image identified as Pav-Bhaji!!!</h2>
+            <img class='recipe-img pav-img' src='static\images\pavbhaji.jpg' alt='pav-photo'>
+            <div class='third-div chai-div'>
+                <h3> Requirements </h3>
+                <ol class='recipe'>
+                    <li>2 tbsp butter</li>
+                    <li>3 tomato</li>
+                    <li>¼ cup peas</li>
+                    <li>½ capsicum</li>
+                    <li>2 potato</li>
+                    <li>1 tsp salt</li>
+                    <li>1 tsp kashmiri red chilli powder</li>
+                    <li>¼ tsp turmeric</li>
+                    <li>1 tsp pav bhaji masala</li>
+                    <li>1 tsp kasuri methi</li>
+                    <li>1 tbsp coriander leaves</li>
+                    <li>1 tsp ginger garlic paste</li>
+                    <li>1 onion</li>
+                    <li>½ lemon juice</li>
+                </ol>
+                <h3> Recipe </h3>
+                <ol class='recipe'>
+                    <li>firstly, in a large kadai heat 1 tbsp butter and add vegetables. cook and mash well.</li>
+                    <li>now add 1 tsp chilli powder, ¼ tsp turmeric, 1 tsp pav bhaji masala, 1 tsp kasuri methi and 2 tbsp coriander leaves.</li>
+                    <li>heat a tbsp of butter and add ¼ tsp chilli powder, ½ tsp pav bhaji masala, 1 tsp kasuri methi.</li>
+                    <li>also add 1 tbsp coriander leaves, 1 tsp ginger garlic paste, 1 onion and ½ lemon juice. saute well.</li>
+                    <li>now add 3 drops of red food colour and mix well.</li>
+                    <li>boil and mash for 5 minutes adjusting consistency.</li>
+                    <li>finally, serve pav and bhaji as pav bhaji.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

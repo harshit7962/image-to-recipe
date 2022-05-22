@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tea Icon -->
+    <link rel="icon" href="{{ url_for('static',filename='images/momo-icon.png') }}">
+    <!-- custom styles -->
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/styles.css') }}">
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <title>Momos</title>
+</head>
+<body>
+    <section id="navigation">
+        <div class = "first-div">
+            <h3>FoodSnap</h3>
+            <div class="navigation-buttons">
+                <button type="button" class="btn btn-light btn-round">Login</button>
+                <button type="button" class="btn btn-danger btn-round">Sign Up</button>
+            </div>
+        </div>
+    </section>
+    <section id="item-page">
+        <div class="second-div">
+            <h2 class="recipe-idn">Image identified as Momos!!!</h2>
+            <img class='recipe-img pav-img' src='static\images\momo.jpg' alt='momo-photo'>
+            <div class='third-div chai-div'>
+                <h3> Requirements </h3>
+                <ol class='recipe'>
+                    <li>1 tablespoon Oil</li>
+                    <li>2 teaspoons Garlic</li>
+                    <li>1 teaspoon Ginger</li>
+                    <li>½ cup Red onion, Cabbage, Capsicum, Carrot</li>
+                    <li>1 tablespoon Salt</li>
+                    <li>¼ teaspoon Black pepper powder</li>
+                    <li>¼ cup Spring onion</li>
+                    <li>1 ½ teaspoons Soy sauce</li>
+                    <li>1 cup All purpose flour</li>
+                </ol>
+                <h3> Recipe </h3>
+                <ol class='recipe'>
+                    <li>Heat the oil on medium-high heat and fry ginger, garlic for few seconds. Then stir fry chopped vegetables with stirring continuously for 3-4 minutes.</li>
+                    <li>Now add salt and pepper, stir fry again for 2 minutes. Then mix in spring onion greens and soy sauce and turn off the stove. Let the stuffing cool down.</li>
+                    <li>To make outer covering dough, mix all purpose flour and salt in a bowl, knead into a smooth yet stiff dough by adding little water at a time. Cover the dough and let it rest for 10-15 minutes. Then divide the dough into 20 equal portions and make smooth balls.</li>
+                    <li>Work with one ball at a time and roll into 4 inch diameter circle. Put a tablespoon of stuffing in the center and shape the momos as shown in step by step photos above. One shaped all of them. Prepare the steamer by adding a glassful of water in a steamer pan and bring it to a simmer on medium heat.</li>
+                    <li>Grease the steamer tray with oil and arrange shaped momos on it. Steam cook them for 6-8 minutes or till the outer layer looks shiny, transparent and by touch it doesn’t feel sticky. Remove from the steamer and serve hot or warm.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

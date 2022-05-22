@@ -42,6 +42,14 @@ def predict():
         return render_template('chai.html')
     elif classification == 'Chapati':
         return render_template('chapati.html')
+    elif classification == 'Pav Bhaji':
+        return render_template('pav-bhaji.html')
+    elif classification == 'Momos':
+        return render_template('momos.html')
+    elif classification == 'Fried Rice':
+        return render_template('fried-rice.html')
+    elif classification == 'Chole Bhature':
+        return render_template('chole-bhature.html')
 
     return render_template('index.html', prediction=classification)
 

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tea Icon -->
+    <link rel="icon" href="{{ url_for('static',filename='images/friedicon.png') }}">
+    <!-- custom styles -->
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/styles.css') }}">
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <title>Fried rice</title>
+</head>
+<body>
+    <section id="navigation">
+        <div class = "first-div">
+            <h3>FoodSnap</h3>
+            <div class="navigation-buttons">
+                <button type="button" class="btn btn-light btn-round">Login</button>
+                <button type="button" class="btn btn-danger btn-round">Sign Up</button>
+            </div>
+        </div>
+    </section>
+    <section id="item-page">
+        <div class="second-div">
+            <h2 class="recipe-idn">Image identified as Fried Rice!!!</h2>
+            <img class='recipe-img pav-img' src='static\images\friedrice.jpg' alt='tea-photo'>
+            <div class='third-div'>
+                <h3> Requirements </h3>
+                <ol class='recipe'>
+                    <li>3 cups Cooked rice</li>
+                    <li>1 tablespoon Sesame oil</li>
+                    <li>2 teaspoons Garlic, Ginger</li>
+                    <li>1 Green chilies</li>
+                    <li>⅓ cup Red onion</li>
+                    <li>½ cup Green beans</li>
+                    <li>½ cup Carrot, Capsicum, Cabbage, Spring onion</li>
+                    <li>Salt</li>
+                    <li>Black pepper powder</li>
+                    <li>1 tablespoons Soy sauce</li>
+                </ol>
+                <h3> Recipe </h3>
+                <ol class='recipe'>
+                    <li>First cook the rice. Approximately ¾ cup of raw rice will give you 3 cups of cooked rice. Let the rice cool down a little bit. Fluff up the rice and make sure that there are no lumps of cooked rice. Also chop all the veggies.</li>
+                    <li>Heat the sesame oil in a pan or wok on medium-high heat. Once hot add chopped ginger, garlic and green chili. Saute for a minute. Then add chopped onions. Cook till they becomes translucent.</li>
+                    <li>Then add rest of the vegetables. Mix well and cook with stirring frequently as we are cooking it on medium-high heat. Cook for 2-3 minutes, they will start to soften.</li>
+                    <li>Add steamed rice, salt and pepper. Mix well. Lastly add soy sauce and mix gently till incorporated well. Remove it to a serving bowl. garnish with chopped greens of spring onion.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
